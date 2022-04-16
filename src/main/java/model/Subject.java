@@ -24,6 +24,8 @@ public String facultyName;
         return Objects.equals(subjectCode, subject.subjectCode) && Objects.equals(subjectName, subject.subjectName) && Objects.equals(facultyName, subject.facultyName);
     }
 
+    
+
     @Override
     public int hashCode() {
         return Objects.hash(subjectCode, subjectName, facultyName);
